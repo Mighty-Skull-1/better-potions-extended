@@ -30,7 +30,7 @@ All subcommands feature intelligent, deep **Tab-Completion** that dynamically po
 | `/bpe reload` | Reloads the `config.yml` settings live into the server memory. | `betterpotionsextended.admin` |
 
 ### Command Examples:
-* `/bpe give Jelani WEAVING splash`
+* `/bpe give Steve WEAVING splash`
 * `/bpe give Alex STRENGTH normal`
 
 ---
