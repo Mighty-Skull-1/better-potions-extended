@@ -1,0 +1,167 @@
+# BetterPotionsExtended Configuration
+# All durations are defined in seconds. Set a value to -1 if you want to fall back to vanilla defaults.
+# This config includes all classic, utility, and 1.21+ status effect potions.
+
+potions:
+  # --- CLASSIC & COMBAT POTIONS ---
+  STRENGTH:
+    tier_1:
+      normal_duration: 360
+      extended_duration: 480
+      splash_duration: 270
+      lingering_duration: 90
+    tier_2:
+      normal_duration: 180
+      splash_duration: 135
+      lingering_duration: 45
+
+  SPEED:
+    tier_1:
+      normal_duration: 360
+      extended_duration: 480
+      splash_duration: 270
+      lingering_duration: 90
+    tier_2:
+      normal_duration: 180
+      splash_duration: 135
+      lingering_duration: 45
+
+  SLOWNESS:
+    tier_1:
+      normal_duration: 90
+      extended_duration: 240
+      splash_duration: 67
+      lingering_duration: 22
+    tier_2:
+      normal_duration: 20
+      splash_duration: 15
+      lingering_duration: 5
+
+  REGENERATION:
+    tier_1:
+      normal_duration: 45
+      extended_duration: 90
+      splash_duration: 33
+      lingering_duration: 11
+    tier_2:
+      normal_duration: 22
+      splash_duration: 16
+      lingering_duration: 5
+
+  POISON:
+    tier_1:
+      normal_duration: 45
+      extended_duration: 120
+      splash_duration: 33
+      lingering_duration: 11
+    tier_2:
+      normal_duration: 21
+      splash_duration: 15
+      lingering_duration: 5
+
+  WEAKNESS:
+    tier_1:
+      normal_duration: 90
+      extended_duration: 240
+      splash_duration: 67
+      lingering_duration: 22
+
+  # --- UTILITY & SURVIVAL POTIONS ---
+  FIRE_RESISTANCE:
+    tier_1:
+      normal_duration: 180
+      extended_duration: 480
+      splash_duration: 135
+      lingering_duration: 45
+
+  WATER_BREATHING:
+    tier_1:
+      normal_duration: 180
+      extended_duration: 480
+      splash_duration: 135
+      lingering_duration: 45
+
+  NIGHT_VISION:
+    tier_1:
+      normal_duration: 180
+      extended_duration: 480
+      splash_duration: 135
+      lingering_duration: 45
+
+  INVISIBILITY:
+    tier_1:
+      normal_duration: 180
+      extended_duration: 480
+      splash_duration: 135
+      lingering_duration: 45
+
+  JUMP_BOOST:
+    tier_1:
+      normal_duration: 180
+      extended_duration: 480
+      splash_duration: 135
+      lingering_duration: 45
+    tier_2:
+      normal_duration: 90
+      splash_duration: 67
+      lingering_duration: 22
+
+  SLOW_FALLING:
+    tier_1:
+      normal_duration: 90
+      extended_duration: 240
+      splash_duration: 67
+      lingering_duration: 22
+
+  TURTLE_MASTER:
+    tier_1:
+      normal_duration: 20
+      extended_duration: 40
+      splash_duration: 15
+      lingering_duration: 5
+    tier_2:
+      normal_duration: 20
+      splash_duration: 15
+      lingering_duration: 5
+
+  HASTE:
+    tier_1:
+      normal_duration: 180
+      extended_duration: 480
+      splash_duration: 135
+      lingering_duration: 45
+
+  LUCK:
+    tier_1:
+      normal_duration: 300
+      splash_duration: 225
+      lingering_duration: 75
+
+  # --- 1.21+ TRIAL CHAMBER POTIONS ---
+  WEAVING:
+    tier_1:
+      normal_duration: 180
+      splash_duration: 135
+      lingering_duration: 45
+
+  WIND_CHARGED:
+    tier_1:
+      normal_duration: 180
+      splash_duration: 135
+      lingering_duration: 45
+
+  OOZING:
+    tier_1:
+      normal_duration: 180
+      splash_duration: 135
+      lingering_duration: 45
+
+  INFESTED:
+    tier_1:
+      normal_duration: 180
+      splash_duration: 135
+      lingering_duration: 45
+
+messages:
+  no-permission: "&cYou do not have permission to execute this command."
+  reload-success: "&a[BetterPotionsExtended] Configuration successfully reloaded from the server!"

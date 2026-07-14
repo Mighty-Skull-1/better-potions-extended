@@ -1,0 +1,15 @@
+name: BetterPotionsExtended
+version: 1.0.6
+main: com.mighty.betterpotionsextended.BetterPotionsExtended
+api-version: '1.21'
+author: Mighty
+description: An advanced, high-performance sandbox utility engine designed to seamlessly override, extend, and visually display custom potion mechanics across all configurations—fully supporting 1.21 Trial Chamber variants like Weaving via real-time interactive UI controls.
+commands:
+  bpe:
+    description: Main control command for BetterPotionsExtended.
+    permission: betterpotionsextended.admin
+    usage: /<command> [potions|give|reload]
+permissions:
+  betterpotionsextended.admin:
+    description: Allows full access to the BetterPotionsExtended editor GUI, give commands, and configuration hot-reloads.
+    default: op
